@@ -1,0 +1,806 @@
+# started on Sun Jan 12 20:49:08 2025
+
+#           time             counts unit events
+     0.300376234      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.300376234      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.601726939      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015              1,488      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015                210      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.11% of all branches        
+     0.903061015              3,238      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015             30,358      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015              6,618      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.22  insn per cycle         
+     0.903061015              1,735      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015                 23      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     0.903061015                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.204393543      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.505643682      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315              1,476      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315                215      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.57% of all branches        
+     1.807021315              1,704      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315             26,138      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315              6,571      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.25  insn per cycle         
+     1.807021315              1,725      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315                 22      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     1.807021315                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.108379262      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.409659054      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     2.710980663      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145              1,486      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145                202      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   13.59% of all branches        
+     3.012503145              1,092      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145             35,879      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145              6,608      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.18  insn per cycle         
+     3.012503145              1,733      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145                 17      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.012503145                 23      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.314001894      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.614967439      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338              1,483      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338                222      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.97% of all branches        
+     3.916623338              3,086      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338             30,974      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338              6,595      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.21  insn per cycle         
+     3.916623338              1,729      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338                 23      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     3.916623338                 29      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.217858919      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.519174208      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581              1,494      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581                218      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.59% of all branches        
+     4.820512581              2,169      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581             29,392      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581              6,644      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.23  insn per cycle         
+     4.820512581              1,740      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581                 20      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     4.820512581                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.121856049      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.423114987      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     5.724460929      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425              1,484      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425                214      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.42% of all branches        
+     6.025915425              1,673      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425             27,362      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425              6,598      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.24  insn per cycle         
+     6.025915425              1,730      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425                 18      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.025915425                 22      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.327437842      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.628779714      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784              1,486      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784                212      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.27% of all branches        
+     6.929830784              1,330      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784             26,172      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784              6,606      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.25  insn per cycle         
+     6.929830784              1,732      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784                 25      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     6.929830784                 22      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.231223998      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.532462485      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+#           time             counts unit events
+     7.833873414              1,483      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.833873414                216      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.57% of all branches        
+     7.833873414              1,530      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.833873414             27,594      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.833873414              6,603      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.24  insn per cycle         
+     7.833873414              1,732      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.833873414                 24      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     7.833873414                 23      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.135203135      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.436595742      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     8.738509537      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743              1,488      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743                145      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    9.74% of all branches        
+     9.039804743              1,647      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743             25,293      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743              6,621      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.26  insn per cycle         
+     9.039804743              1,736      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743                 20      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.039804743                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.341260542      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.642620523      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144              1,474      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144                207      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.04% of all branches        
+     9.943983144              1,457      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144             36,218      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144              6,562      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.18  insn per cycle         
+     9.943983144              1,723      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144                 20      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+     9.943983144                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.245323878      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.547343097      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105              1,485      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105                216      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.55% of all branches        
+    10.848702105              1,284      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105             44,934      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105              6,589      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.15  insn per cycle         
+    10.848702105              1,725      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105                 40      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    10.848702105                 25      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.149880934      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.451217428      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    11.752534700      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440              1,485      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440                201      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   13.54% of all branches        
+    12.053835440              1,524      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440             43,312      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440              6,589      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.15  insn per cycle         
+    12.053835440              1,725      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440                 25      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.053835440                 23      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.355173524      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.656373365      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846              2,371      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846                306      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   12.91% of all branches        
+    12.957695846              1,234      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846             75,013      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846             11,533      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.15  insn per cycle         
+    12.957695846              3,268      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846                 80      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    12.957695846                 60      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.259086377      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.560393650      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271              2,146      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271                283      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   13.19% of all branches        
+    13.861745271              1,541      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271            110,318      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271             10,120      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.09  insn per cycle         
+    13.861745271              2,798      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271                 29      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    13.861745271                 27      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.163108632      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.464573487      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    14.765772911      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799              1,474      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799                215      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.59% of all branches        
+    15.067113799              1,461      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799             42,429      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799              6,551      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.15  insn per cycle         
+    15.067113799              1,721      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799                 28      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.067113799                 28      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+#           time             counts unit events
+    15.368465912      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.368465912      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.669595842      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986              1,476      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986                224      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   15.18% of all branches        
+    15.970921986              1,049      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986             28,596      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986              6,556      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.23  insn per cycle         
+    15.970921986              1,718      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986                 28      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    15.970921986                 52      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.272250262      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.573495578      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553              1,473      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553                216      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.66% of all branches        
+    16.874869553              1,147      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553             27,526      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553              6,546      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.24  insn per cycle         
+    16.874869553              1,714      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553                 32      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    16.874869553                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.176279359      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.477589316      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    17.778940691      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960              1,474      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960                155      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   10.52% of all branches        
+    18.080352960              1,153      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960             27,069      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960              6,549      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.24  insn per cycle         
+    18.080352960              1,716      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960                 22      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.080352960                112      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.381790603      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.682981918      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221              1,474      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221                113      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    7.67% of all branches        
+    18.984403221              1,131      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221             24,369      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221              6,549      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.27  insn per cycle         
+    18.984403221              1,716      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221                 15      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    18.984403221                110      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.285759567      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.587049660      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589              1,474      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589                215      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.59% of all branches        
+    19.888108589              1,122      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589             25,193      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589              6,551      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.26  insn per cycle         
+    19.888108589              1,716      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589                 19      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    19.888108589                 25      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.189604395      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.491085363      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    20.792413245      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592              1,486      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592                221      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.87% of all branches        
+    21.093661592              1,131      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592             25,797      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592              6,594      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.26  insn per cycle         
+    21.093661592              1,726      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592                 25      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.093661592                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.395010187      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.696067828      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261              1,476      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261                214      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.50% of all branches        
+    21.997429261              1,196      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261             26,100      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261              6,558      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.25  insn per cycle         
+    21.997429261              1,718      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261                 30      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    21.997429261                 23      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.298920115      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.600322389      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+#           time             counts unit events
+    22.901634319              1,473      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.901634319                120      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    8.15% of all branches        
+    22.901634319              1,183      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.901634319             28,607      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.901634319              6,548      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.23  insn per cycle         
+    22.901634319              1,713      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.901634319                 30      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    22.901634319                 29      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.202969188      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.504259669      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280              1,881      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280                156      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    8.29% of all branches        
+    23.805467280              1,156      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280             51,744      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280              8,738      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.17  insn per cycle         
+    23.805467280              2,352      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280                 38      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    23.805467280                 25      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.106874188      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.408176974      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    24.709648161      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309              1,929      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309                159      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    8.24% of all branches        
+    25.010923309              1,147      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309             27,871      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309              8,318      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.30  insn per cycle         
+    25.010923309              2,083      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309                 33      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.010923309                 24      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.312154218      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.613440696      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608              1,476      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608                220      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.91% of all branches        
+    25.914815608              1,157      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608             29,272      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608              6,558      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.22  insn per cycle         
+    25.914815608              1,718      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608                 26      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    25.914815608                 51      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.216116509      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.517390484      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080              1,476      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080                211      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.30% of all branches        
+    26.818765080              1,110      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080             29,764      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080              6,558      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.22  insn per cycle         
+    26.818765080              1,718      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080                 20      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    26.818765080                 25      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.120128418      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.425880583      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    27.727172243      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998              1,482      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998                119      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    8.03% of all branches        
+    28.028294998              1,247      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998             23,552      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998              6,578      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.28  insn per cycle         
+    28.028294998              1,720      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998                 15      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.028294998                 20      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.329624434      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.631016380      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035              1,483      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035                220      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.83% of all branches        
+    28.932100035              1,128      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035             30,284      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035              6,583      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.22  insn per cycle         
+    28.932100035              1,723      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035                 22      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    28.932100035                 54      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.233399183      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.534735432      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149              1,481      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149                217      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #   14.65% of all branches        
+    29.836086149              1,050      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149             27,301      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149              6,579      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320 #    0.24  insn per cycle         
+    29.836086149              1,723      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149                 22      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.836086149                 29      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      branch-instructions       docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      branch-misses             docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      cache-misses              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      cpu-cycles                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      instructions              docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      L1-dcache-loads           docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      LLC-stores                docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   
+    29.915746778      <not counted>      iTLB-load-misses          docker/327862f13a259689ac62d9683880744713a0c730e44c356ef09860a8f978c320                                   

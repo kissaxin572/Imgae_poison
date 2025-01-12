@@ -1,0 +1,16 @@
+# started on Sun Jan 12 20:34:48 2025
+
+
+ Performance counter stats for 'system wide':
+
+            42,649      branch-instructions       docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+             5,401      branch-misses             docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c #   12.66% of all branches        
+            41,213      cache-misses              docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+           719,639      cpu-cycles                docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+           189,756      instructions              docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c #    0.26  insn per cycle         
+            49,628      L1-dcache-loads           docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+               493      LLC-stores                docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+               961      iTLB-load-misses          docker/8da145a6fd71fa227d4d5791c060dbfd48296f4ecfb05f25684d2fe86c209e9c                                   
+
+      29.917142362 seconds time elapsed
+
