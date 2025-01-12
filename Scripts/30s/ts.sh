@@ -12,7 +12,7 @@ readonly EVENTS="branch-instructions,branch-misses,cache-misses,cpu-cycles,instr
 
 # 日志输出函数,输出带时间戳的日志信息
 log_msg() {
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a $RESULT_PATH/log.txt
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a /home/ubuntu20/Workspace/Datasets/Image_poison/30s/tsc.txt
 }
  
 # 从纯净ELF文件目录获取所有恶意软件样本文件列表
@@ -82,10 +82,10 @@ malware_poison(){
             -I 300 \
 			-e ${EVENTS} \
 			-G docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id \
-			-o ${result_path}/M_${i}.txt"
+			-o ${result_path}/M_$((i+1)).txt"
 		
 		log_msg "执行命令: $perf_cmd"
-		log_msg "${image_elf} => ${result_path}/M_${i}.txt"
+		log_msg "${image_elf} => ${result_path}/M_$((i+1)).txt"
 		eval "$perf_cmd &"  # 在后台执行perf命令,开始收集性能计数器数据
 		local perf_pid=$!  # 记录perf命令的进程ID
 		log_msg "等待 ${duration_time}秒"
@@ -132,10 +132,10 @@ benign_poison(){
             -I 300 \
 			-e ${EVENTS} \
 			-G docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id,docker/$container_id \
-			-o ${result_path}/B_${i}.txt"
+			-o ${result_path}/B_$((i+1)).txt"
 		
 		log_msg "执行命令: $perf_cmd"
-		log_msg "${image} => ${result_path}/B_${i}.txt"
+		log_msg "${image} => ${result_path}/B_$((i+1)).txt"
 		eval "$perf_cmd &"  # 在后台执行perf命令,开始收集性能计数器数据
 		local perf_pid=$!  # 记录perf命令的进程ID
 		log_msg "等待 ${duration_time}秒"
